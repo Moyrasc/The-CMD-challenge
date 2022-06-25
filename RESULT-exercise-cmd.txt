@@ -1,0 +1,67 @@
+## Get inside the thecmdchallenge/ directory ##
+
+gitpod /workspace/exercise-terminal-challenge (master) $ cd thecmdchallenge
+
+## Print current directory path ##
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ pwd
+
+
+## List all the files from the current directory including the hidden ones ##
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls -a
+
+
+## Now list all the files inside the project, recursively (all files in the hierarchy). ##
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls -R
+
+## Clear all the clutter from the command line ##
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ clear
+
+## Go to the last level below the small-name folder and show on the console the content of the trophy.txt file. ##
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ cd small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/ cat trophy.txt (probé a mostrar los datos con el comando less también).
+
+## Move one level up and get to the funcode directory and list all files with the javascript typical extension. ##
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ cd ../../../../funcode/ ls *.js
+
+## Create a new directory inside funcode/the-most-funny/ called “not-that-funny“. ##
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ mkdir not-that-funny
+
+## Create a copy of the-mostboring-text.txt (you can find it within /boringfolder/‘s children) and name it lol.txt. ##
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ cd boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception/
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception (master) $ cp myfirstcopy.txt lol.txt
+
+## Move funcode/kids.jpg inside funcode/images/hello/ ##
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ mv kids.jpg images/hello
+
+## Remove the “small-name“ directory. ##
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rm -Rf small-name/
+
+## Print in the command line the content of the-ultimate-joke.txt. ##
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode/the-most-funny/lol (master) $ cat the-ultimate-joke.txt 
+what do you call a programmer from Findland? ..... NERDIC!
+
+Got it?? :)
+
+## Remove all the contents from the boringfolder, they are extremely boring… ##
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rm -Rf boringfolder/
+
+## Open the file kamehameha/dragon-ball-jokes.md using the VI command line text editor ##
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ vi kamehameha/dragon-ball-jokes.md
+
+## Update the file kamehameha/dragon-ball-jokes.md by removing the first joke you read on the file, finally save and close the text editor.##
+
+dd (elimina el primer chiste)
+Shift+zz (guarda y cierra el editor)
